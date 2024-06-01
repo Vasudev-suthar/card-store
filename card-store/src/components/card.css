@@ -1,0 +1,60 @@
+ 
+ 
+ .card {
+    animation: gradient-animation 20s infinite ease-out;
+    overflow: hidden;
+    width: 220px;
+    height: 230px;
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .c-box{
+    width: 214px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  .card img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 7px;
+  }
+
+  .card h1{
+    font-weight: 700;
+    color: #7e6aef;
+  margin-bottom: 5px;
+  }
+  .card p{
+    font-size: 10px;
+    color: #7e6aef;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+        background: linear-gradient(45deg, #ea0808, #0d14f3);
+    }
+    20% {
+        background: linear-gradient(45deg, #dbea08, #0df30d);
+    }
+    40% {
+        background: linear-gradient(45deg, #ea3508, #0dd0f3);
+    }
+    60% {
+        background: linear-gradient(45deg, #2eea08, #240df3);
+    }
+    80% {
+        background: linear-gradient(45deg, #d708ea, #f3b60d);
+    }
+    100% {
+        background: linear-gradient(45deg, #ea0808, #0d14f3);
+    }
+}
